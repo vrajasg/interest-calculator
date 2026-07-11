@@ -3,6 +3,15 @@
 Playwright + TypeScript automation suite for the web-based Interest Calculator.
 
 ---
+## Prerequisites
+
+| Software | Minimum Version          | Check                             |
+|----------|--------------------------|---------------------------------- |
+| Node.js  | 18.x                     | `node --version`                  |
+| npm      | 9.x                      | `npm --version`                   |
+| Chromium | installed via Playwright | `npx playwright install chromium` |
+
+> Node.js 18 is the minimum required by `@playwright/test@1.44+`. Node.js 20 LTS is recommended.
 
 ## Quick Start
 
