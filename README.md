@@ -28,7 +28,7 @@ Create a `.env` file in the project root (same level as `package.json`):
 
 ```env
 # Target URL
-TEST_BASE_URL=http://3.8.242.61/Account/Login
+TEST_BASE_URL=http://paste.application.url.here
 
 # Test user credentials
 TEST_EMAIL="name@example.com"
