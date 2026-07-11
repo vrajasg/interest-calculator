@@ -1,0 +1,24 @@
+{
+  "name": "interest-calculator-automation-suite",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript automation suite for the web-based Interest Calculator",
+  "scripts": {
+    "test:unit": "playwright test tests/unit",
+    "test:e2e": "playwright test tests/e2e",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
