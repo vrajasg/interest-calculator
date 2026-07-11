@@ -68,6 +68,17 @@ AC-01–05 share `CALCULATION_SCENARIOS` in `testData.ts` — adding a new scena
 ---
 
 ## Architecture Decisions
+```
+Test
+  ↓  what to verify (all expect() calls live here only)
+Page
+  ↓  how to do it (actions, navigation)
+Locators
+  ↓  where things are (selectors, HTTP transport)
+Playwright
+  ↓
+Application
+```
 
 **Test → Page → Locators** — each layer has one responsibility:
 - `expect()` never appears inside a page or locator class — tests own all assertions
